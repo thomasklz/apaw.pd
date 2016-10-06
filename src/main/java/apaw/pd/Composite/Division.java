@@ -1,5 +1,5 @@
 package apaw.pd.Composite;
 
-public class ExpresionComposite {
+public class Division {
 
 }
