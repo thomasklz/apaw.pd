@@ -1,5 +1,8 @@
 package apaw.pd.Composite;
 
-public class ExpresionComponente {
+public interface ExpresionComponente {
+	
+	public int operar();
+	
 
 }
