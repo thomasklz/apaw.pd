@@ -1,6 +1,6 @@
 package apaw.pd.Composite;
 
-public abstract class ExpresionesComposite implements ExpresionComponente {
+public abstract class ExpresionesComposite extends ExpresionComponente {
 
 	
 	protected ExpresionComponente Expresion1;
@@ -11,14 +11,14 @@ public abstract class ExpresionesComposite implements ExpresionComponente {
 		this.Expresion2 = Expresion2;
 	}
 	
-	/*protected ExpresionComponente getExpresion1() {
+	public ExpresionComponente getExpresion1() {
 		return Expresion1;
 	}
-
-	protected ExpresionComponente getExpresion2() {
+	
+	public ExpresionComponente getExpresion2() {
 		return Expresion2;
 	}
-	*/
+	
 	@Override
     public String toString() {
         return "(" + Expresion1 + operacion() + Expresion2 + ")";
