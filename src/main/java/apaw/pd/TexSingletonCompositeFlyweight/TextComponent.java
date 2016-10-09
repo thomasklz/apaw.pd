@@ -1,5 +1,13 @@
 package apaw.pd.TexSingletonCompositeFlyweight;
 
-public class TextComponent {
-
+public interface TextComponent {
+	
+  public abstract String imprimir(boolean mayuscula);
+  public abstract void añadir(TextComponent textComponent);
+  public abstract void borrar();
+ 
+  
+  
+  
+  
 }
