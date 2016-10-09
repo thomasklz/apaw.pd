@@ -1,6 +1,6 @@
 package apaw.pd.Factory;
 
-public abstract class NaturalNumberManager {
+public  class NaturalNumberManager {
 	private NaturalNumber naturalNumber ;
 	private NaturalNumberCreator naturalNumberCreator;
 	
