@@ -2,7 +2,7 @@ package apaw.pd.TexSingletonCompositeFlyweight;
 
 public class Text  extends TextCompuesto{
 
-	String Textos;
+	String Textos="";
 	
 	@Override
 	public String imprimir(boolean mayuscula) {
