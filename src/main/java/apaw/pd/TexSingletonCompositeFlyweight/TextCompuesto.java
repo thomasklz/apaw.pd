@@ -9,6 +9,9 @@ public abstract class TextCompuesto implements TextComponent {
 	public abstract void añadir(TextComponent textComponent) ;
 
 	@Override
-	public  abstract void borrar() ;
+	public  abstract void borrar(TextComponent textComponent) ;
+	
+	@Override
+	public  abstract boolean isComposite();
 
 }
