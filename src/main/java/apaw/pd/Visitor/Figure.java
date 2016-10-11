@@ -7,5 +7,6 @@ public abstract class Figure {
     
     public abstract double area();
     public abstract double numberOfSides();
+    public abstract void accept(VisitorFigura visitorFigura);
 
 }
