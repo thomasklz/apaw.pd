@@ -2,7 +2,7 @@ package apaw.pd.calculadora;
 
 public interface Comando {
 
-		void execute();
-        String name();
+	public void execute();
+
+	public String name();
 }
-                                                                                                                                                                                                                                                    
